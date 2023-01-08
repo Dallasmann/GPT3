@@ -11,15 +11,12 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>sup, insert your headline here</h1>
+            <h1>sup, insert your headline here ee </h1>
           </div>
           <div className="header-subtitle">
             <h2>insert your subtitle here</h2>
           </div>
         </div> 
-        <div className="prompt-container">
-          <textarea placeholder="start typing here" className="prompt-box" />
-        </div>
         <div className="prompt-container">
           <textarea placeholder="start typing here" className="prompt-box" />
         </div>
