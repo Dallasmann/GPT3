@@ -16,7 +16,8 @@ const Home = () => {
           <div className="header-subtitle">
             <h2>insert your subtitle here</h2>
           </div>
-        </div>
+        </div> 
+            textarea
       </div>
       <div className="badge-container grow">
         <a
