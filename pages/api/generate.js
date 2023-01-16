@@ -7,8 +7,8 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix =
-  'translate the following from english to french: s\n';
-const finalPromptPrefix = 'The wording in french is : vr\n';
+  'Help me write lyrics in the style of Drake, Canadian Rapper\n';
+const finalPromptPrefix = 'Take the lyrics below and generate 5 song titles:\n';
 
 const generateAction = async (req, res) => {
   // Run first prompt
